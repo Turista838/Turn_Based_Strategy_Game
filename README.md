@@ -20,4 +20,5 @@ There are specific types of military force units that may be needed to attack or
 
 It is divided in 4 stages:
 
-* Stage 0:<br/>Create territories using the command criar XXX Y where XXX can is the territory type () and Y the number of how many of that type you want to create.
+* Stage 0:
+<br/>Create territories using the command criar XXX Y where XXX can is the territory type () and Y the number of how many of that type you want to create.
