@@ -28,10 +28,10 @@ The existing technologies are as follows:
 * Stock exchange: trading system that makes exchanges between products and gold possible, as referred to in the description of phase 2 of the shift (collecting products and gold). It costs 2 gold units.
 * Central Bank: when acquired, this technology increases the storage capacity of the warehouse and the empire's vault by two units: they can now store up to 5 products and 5 gold units, respectively. The Empire does not automatically acquire these products and gold - it can only accumulate up to these quantities. No matter how many times you buy this technology, it is not possible to exceed the maximum value of 5 - you can buy it but it has no effect.
 
-The game is divided in 4 stages:
+The game is divided in 5 stages:
 
 #### Stage 0:
-Create territories using the command ```criar XXX Y``` where XXX can is the territory type () and Y the number of how many of that type you want to create.<br/>
+Create territories using the command ```criar XXX Y``` where XXX can is the territory type (Planície, Montanha, Fortaleza, Mina, Duna, Castelo, Refúgio dos Piratas and Pescaria) and Y the number of how many of that type you want to create.<br/>
 Type ```avanca``` to start the game.
 
 #### Stage 1:
@@ -42,7 +42,8 @@ Type ```passa``` to get to the next stage without conquering any territory.
 Game automatically collects products and gold from the owned territories.
 
 #### Stage 3:
-You can buy technologies int this stage using the command ```adquire XXXX```, where XXXX is the name of the tech you want to acquire.
+You can buy technologies in this stage using the command ```adquire XXXX```, where XXXX is the name of the tech you want to acquire.
+You can also increase your army size using the ```maismilitar``` command
 Type ```avanca``` to get to the next stage without acquiring any technology.
 
 #### Stage 4:
@@ -53,5 +54,17 @@ Event stage. where one of these can randomly happen:
 * No event: nothing happens.
 
 #### List of Commands:
+```criar XXX Y``` (explained in Stage 0)
+```conquista XXXX``` (explained in Stage 1)
+```avanca``` (to pass a stage that is not stage 1)
+```passa``` (to pass stage 1)
+```maismilitar``` (explained in Stage 3)
+```maisouro``` trade products for gold (only available if the tech XX is owned)
+```maisprod``` trade gold for products (only available if the tech XX is owned)
+```adquire XXXX``` (explained in Stage 3)
+```criar XXX Y```
+```criar XXX Y```
+```criar XXX Y```
+```criar XXX Y```
 
 #### List of Technologies:
