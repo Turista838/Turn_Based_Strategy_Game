@@ -31,4 +31,12 @@ The existing technologies are as follows:
 The game is divided in 4 stages:
 
 #### Stage 0:
-Create territories using the command criar XXX Y where XXX can is the territory type () and Y the number of how many of that type you want to create.
+Create territories using the command ```criar XXX Y``` where XXX can is the territory type () and Y the number of how many of that type you want to create.<br/>
+Type ```avanca``` to start the game.
+
+#### Stage 1:
+Type ```conquista XXXX``` to conquer a territory. XXXX is the name of it.
+Type ```passa``` to get to the next stage without conquering any territory.
+
+
+#### List of Commands:
