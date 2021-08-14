@@ -38,5 +38,20 @@ Type ```avanca``` to start the game.
 Type ```conquista XXXX``` to conquer a territory. XXXX is the name of it.
 Type ```passa``` to get to the next stage without conquering any territory.
 
+#### Stage 2:
+Game automatically collects products and gold from the owned territories.
+
+#### Stage 3:
+You can buy technologies int this stage using the command ```adquire XXXX```, where XXXX is the name of the tech you want to acquire.
+Type ```avanca``` to get to the next stage without acquiring any technology.
+
+#### Stage 4:
+Event stage. where one of these can randomly happen:
+* Abandoned Resource: An abandoned resource has been found and provides the empire with a unit of products or gold as found in the first year of the game (product) or the second (gold). If the maximum allowed value has already been reached, the resource found is wasted (and no other event occurs in its place).
+* Invasion: any other competing empire, of which there is no record at all, is trying to conquer one of the player's territories. Choose the most recently conquered territory. A luck factor is randomly generated, number between 1 and 6 inclusive. This luck factor is added to the strength of the invasion, which has a value of 2 in the first year and 3 in the second year. If the result is less than the resistance of the territory, the invasion fails. Otherwise, the invasion takes place, and the territory ceases to be part of the empire, thus ceasing to contribute to creation and products and gold. In case the empire has the territorial defenses technology, 1 is added to the resistance level of the territory that is targeted by the invasion. If the empire is only constituted by the Initial Territory, the success of the invasion leads to the loss of the game.
+* Diplomatic alliance: an alliance was signed with another empire of which there is also no record. As a result, the military strength increases by one unit, as long as the maximum number of possible units in the empire is not exceeded (otherwise, nothing is gained, but the event “counts” anyway).
+* No event: nothing happens.
 
 #### List of Commands:
+
+#### List of Technologies:
