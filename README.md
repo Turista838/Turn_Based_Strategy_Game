@@ -13,10 +13,8 @@ The world where the game takes place is made up of territories located on contin
 
 **The Empire**
 The player's empire starts out as their starting territory. According to the player's decisions and the luck factor, the empire can be expanded to encompass more territories.
-Each turn, the player's territories produce goods and gold, needed to maintain the empire and trigger certain actions. The empire includes a warehouse with a capacity of 3 units of products and a vault with a capacity of 3 gold units. Under certain circumstances, both the warehouse and the vault can be increased in capacity. Products and gold that are obtained but no longer fit in the warehouse or vault will be wasted. If the empire implements a trading system, it is possible to exchange products and gold, according to the player's strategy and needs.
-The empire has a military strength that varies between 0 and 3 units. Military strength can be increased up to a maximum value of 5 units.
-There are specific types of military force units that may be needed to attack or defend under certain circumstances. Initially, the empire does not have any of this type of specialized military equipment, but it may acquire it.
-There are technologies that allow you to improve certain aspects of the empire. The player will be able to buy these technologies.
+Each turn, the player's territories produce goods and gold, needed to maintain the empire and trigger certain actions. The empire includes a warehouse with a capacity of 3 units of products and a vault with a capacity of 3 gold units. Under certain circumstances, both the warehouse and the vault can be increased in capacity. Products and gold that are obtained but no longer fit in the warehouse or vault will be wasted. If the empire implements a trading system, it is possible to exchange products and gold, according to the player's strategy and needs.  The empire has a military strength that varies between 0 and 3 units. Military strength can be increased up to a maximum value of 5 units.
+There are specific types of military force units that may be needed to attack or defend under certain circumstances. Initially, the empire does not have any of this type of specialized military equipment, but it may acquire it.  There are technologies that allow you to improve certain aspects of the empire. The player will be able to buy these technologies.
 
 
 
