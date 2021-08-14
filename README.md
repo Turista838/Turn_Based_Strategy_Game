@@ -31,7 +31,7 @@ The existing technologies are as follows:
 The game is divided in 5 stages:
 
 #### Stage 0:
-Create territories using the command ```criar XXX Y``` where XXX can is the territory type (Planície, Montanha, Fortaleza, Mina, Duna, Castelo, Refúgio dos Piratas and Pescaria) and Y the number of how many of that type you want to create.<br/>
+Create territories using the command ```criar XXXX Y``` where XXXX is the territory type (Planície, Montanha, Fortaleza, Mina, Duna, Castelo, Refúgio dos Piratas and Pescaria) and Y the number of how many of that type you want to create.<br/>
 Type ```avanca``` to start the game.
 
 #### Stage 1:
@@ -54,17 +54,30 @@ Event stage. where one of these can randomly happen:
 * No event: nothing happens.
 
 #### List of Commands:
-```criar XXX Y``` (explained in Stage 0)
-```conquista XXXX``` (explained in Stage 1)
-```avanca``` (to pass a stage that is not stage 1)
-```passa``` (to pass stage 1)
-```maismilitar``` (explained in Stage 3)
-```maisouro``` trade products for gold (only available if the tech XX is owned)
-```maisprod``` trade gold for products (only available if the tech XX is owned)
-```adquire XXXX``` (explained in Stage 3)
-```criar XXX Y```
-```criar XXX Y```
-```criar XXX Y```
-```criar XXX Y```
+* ```criar XXX Y``` (explained in Stage 0)
+* ```conquista XXXX``` (explained in Stage 1)
+* ```avanca``` (to pass a stage that is not stage 1)
+* ```passa``` (to pass stage 1)
+* ```maismilitar``` (explained in Stage 3)
+* ```maisouro``` trade products for gold (only available if the tech XX is owned)
+* ```maisprod``` trade gold for products (only available if the tech XX is owned)
+* ```adquire XXXX``` (explained in Stage 3)
+* ```list``` lists everything (territories owned/not owned, gold/products and several other information)
+* ```carrega XXXX``` loads territories (only in Stage 0) (XXXX is the name of the file)
+* ```grava XXXX``` saves game (XXXX is the name of the created file)
+* ```ativa XXXX``` loads game (XXXX is the name of the saved file)
+* ```apaga XXXX``` erases saved file (XXXX is the name of the saved file)
 
-#### List of Technologies:
+#### List of Technologies (explained above):
+* ```drone```
+* ```missil```
+* ```defesa```
+* ```bolsa```
+* ```banco```
+
+<br/>
+The game ends in 12 turns, or being reduced to the Starting Territory, loses it in an Invasion event. The score is obtained as follows:
+* The sum of victory points corresponding to the territories that make up your empire;
+* One additional point for each technology acquired;
+* One additional point if 5 technologies have been acquired (scientific bonus);
+* Three additional points if all lands in the world are part of the empire (this is the “supreme emperor” bonus).
